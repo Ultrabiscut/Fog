@@ -1,0 +1,28 @@
+﻿Build started 7/10/2015 2:24:41 PM.
+     1>Project "C:\Users\tltimmins\Documents\Visual Studio 2013\Projects\OpenGLProjects\Fog\OpenGL\OpenGL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt OpenGLApp.cpp
+         OpenGLApp.cpp
+     1>c:\users\tltimmins\documents\visual studio 2013\projects\openglprojects\fog\opengl\openglapp.cpp(34): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\tltimmins\documents\visual studio 2013\projects\openglprojects\fog\opengl\openglapp.cpp(112): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>c:\users\tltimmins\documents\visual studio 2013\projects\openglprojects\fog\opengl\openglapp.cpp(113): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>c:\users\tltimmins\documents\visual studio 2013\projects\openglprojects\fog\opengl\openglapp.cpp(123): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>c:\users\tltimmins\documents\visual studio 2013\projects\openglprojects\fog\opengl\openglapp.cpp(124): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>c:\users\tltimmins\documents\visual studio 2013\projects\openglprojects\fog\opengl\openglapp.cpp(134): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>c:\users\tltimmins\documents\visual studio 2013\projects\openglprojects\fog\opengl\openglapp.cpp(135): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>c:\users\tltimmins\documents\visual studio 2013\projects\openglprojects\fog\opengl\openglapp.cpp(147): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>c:\users\tltimmins\documents\visual studio 2013\projects\openglprojects\fog\opengl\openglapp.cpp(148): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>c:\users\tltimmins\documents\visual studio 2013\projects\openglprojects\fog\opengl\openglapp.cpp(171): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>c:\users\tltimmins\documents\visual studio 2013\projects\openglprojects\fog\opengl\openglapp.cpp(172): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>c:\users\tltimmins\documents\visual studio 2013\projects\openglprojects\fog\opengl\openglapp.cpp(184): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>c:\users\tltimmins\documents\visual studio 2013\projects\openglprojects\fog\opengl\openglapp.cpp(185): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\tltimmins\Documents\Visual Studio 2013\Projects\OpenGLProjects\Fog\Debug\OpenGL.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\tltimmins\Documents\Visual Studio 2013\Projects\OpenGLProjects\Fog\Debug\OpenGL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\tltimmins\Documents\Visual Studio 2013\Projects\OpenGLProjects\Fog\Debug\OpenGL.lib" /MACHINE:X86 Debug\OpenGLApp.obj
+         Debug\WinMain.obj
+         OpenGL.vcxproj -> C:\Users\tltimmins\Documents\Visual Studio 2013\Projects\OpenGLProjects\Fog\Debug\OpenGL.exe
+     1>Done Building Project "C:\Users\tltimmins\Documents\Visual Studio 2013\Projects\OpenGLProjects\Fog\OpenGL\OpenGL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.81
